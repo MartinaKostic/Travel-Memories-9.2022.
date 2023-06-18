@@ -1,0 +1,67 @@
+.signin {
+  background-color: var(--color-white);
+  border-radius: 49px;
+  position: relative;
+  margin: 60px;
+  padding: 1em;
+  box-sizing: border-box;
+  display: grid;
+}
+
+.label {
+  font-size: larger;
+  color: var(--color-text);
+  padding: 5px;
+  margin-left: -124px;
+}
+
+.input {
+  font-size: larger;
+  margin: 2px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--color-text);
+}
+.messages {
+  display: flex;
+  justify-content: center;
+  color: var(--color-attention);
+}
+
+.btn {
+  color: white;
+  background-color: var(--color-primary);
+  border-radius: 19px;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  font-size: 24px;
+  width: 248px;
+  height: 49px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.12) perspective(1px);
+}
+.icon {
+  color: var(--color-text);
+  font-size: 25px;
+}
+.error {
+  display: block;
+  background-color: var(--color-attention);
+  color: var(--color-white);
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+.NamePass {
+  margin-left: 90px;
+}
+.name {
+  margin: 30px;
+}
+.pass {
+  margin: 30px;
+}

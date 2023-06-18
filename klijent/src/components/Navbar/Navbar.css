@@ -1,0 +1,55 @@
+.navbar {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+.logotip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ikona {
+  font-size: 25px;
+}
+.navbar h1 {
+  color: var(--color-primary);
+  padding: 3px 30px 3px 3px;
+}
+.navbar a {
+  float: left;
+  text-align: center;
+  color: var(--color-text);
+  border: 2px solid var(--color-bg);
+  background: transparent;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 19px;
+  display: flex;
+  font-size: 20px;
+  transition-duration: 0.1s;
+}
+.navbar button {
+  float: left;
+  text-align: center;
+  color: var(--color-text);
+  border: 2px solid var(--color-bg);
+  background: transparent;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 19px;
+  display: flex;
+  font-size: 20px;
+  transition-duration: 0.1s;
+}
+.navbar button:hover {
+  border: 2px solid var(--color-primary);
+  border-radius: 15px;
+}
+nav a:hover {
+  border: 2px solid var(--color-primary);
+}
+
+nav a.active {
+  background: rgba(255, 255, 255, 0.6);
+}

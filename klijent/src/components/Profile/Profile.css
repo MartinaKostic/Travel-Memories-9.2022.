@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+.profil {
+  background-color: var(--color-white);
+  border-radius: 49px;
+  position: relative;
+  margin: 60px;
+  padding: 100px;
+  box-sizing: border-box;
+  color: var(--color-text);
+}
+
+.img {
+  height: 120px;
+  width: 130px;
+  border-radius: 49px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  grid-area: 1 / 1 / 3 / 2;
+}
+.osnovni_podaci {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr), 70%;
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: start;
+  flex-basis: 45%;
+}
+
+.b {
+  grid-area: 1 / 2 / 2 / 3;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.profilePic {
+  display: grid;
+  justify-content: start;
+}
+.labelPicture {
+  text-align: start;
+}
+.inputPicture {
+  margin-bottom: 10px;
+}
+.error {
+  margin-bottom: 10px;
+}
+.btn {
+  color: white;
+  background-color: var(--color-primary);
+  border-radius: 19px;
+  padding: 5px;
+  margin: 10px auto;
+  font-size: 12px;
+  transition: var(--transition);
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+}
+.btnChangeProfilePicture {
+  color: white;
+  background-color: var(--color-primary);
+  border-radius: 19px;
+  padding: 5px;
+  margin: 10px auto;
+  font-size: 12px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.profileHeader {
+  display: flex;
+}
+.Photos {
+  margin-right: 10px;
+}
+.error {
+  display: block;
+  background-color: var(--color-primary-variant);
+  color: var(--color-white);
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+.react-photo-album--photo {
+  object-fit: cover;
+}

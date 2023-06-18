@@ -1,0 +1,106 @@
+.btnWrapper {
+  color: var(--color-text);
+  padding: 8px;
+  margin: 15px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 23px;
+  margin-right: 100px;
+}
+
+.modalBtn {
+  background-color: var(--color-primary) !important;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 33px;
+  height: 33px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.postWrapper {
+  margin: auto;
+  text-align: center;
+  color: black;
+  background-color: var(--color-white);
+  border-radius: 49px;
+  margin: 60px;
+  margin-top: 0px;
+}
+
+.profileImage {
+  height: 120px;
+  width: 130px;
+  border-radius: 50px;
+  padding-top: 10px;
+  object-fit: cover;
+}
+
+.postPhotos {
+  display: flex;
+  justify-content: center;
+}
+
+.singlePostPhoto {
+  padding: 15px;
+}
+
+.postDescription {
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.singlePostPhotoImage {
+  height: 600px;
+  width: 600px;
+  object-fit: contain;
+}
+
+.carousel .carousel-status {
+  display: none !important;
+}
+
+.carousel .thumbs {
+  display: none;
+}
+
+.carousel.carousel-slider .control-arrow {
+  background-color: black !important;
+  border-radius: 25px;
+  margin-top: 25% !important;
+  display: none;
+}
+
+.carousel .control-next.control-arrow {
+  right: 0;
+  height: 50px;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #454545;
+}
+
+.carousel .control-prev.control-arrow {
+  left: 0;
+  height: 50px;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #454545;
+}
+
+.carousel .slide img {
+  height: 400px;
+}
+.locationIcon {
+  color: var(--color-primary);
+}
+.postUsername {
+  font-size: 30px;
+}
+.postTitle {
+  font-size: 20px;
+}

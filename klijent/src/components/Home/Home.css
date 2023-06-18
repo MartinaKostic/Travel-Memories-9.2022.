@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-white);
+  border-radius: 49px;
+  margin: 60px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.joinus {
+  position: relative;
+  height: 740px;
+}
+
+.picture {
+  display: block;
+  overflow: hidden;
+  width: 1240px;
+  height: 739px;
+  margin: 50px;
+  border-radius: 49px;
+}
+
+.text-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  bottom: 50%;
+}
+.text-image h1,
+h5 {
+  font-size: 3rem;
+}

@@ -1,0 +1,90 @@
+.signup {
+  background-color: var(--color-white);
+  border-radius: 49px;
+  position: relative;
+  margin: 60px;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.fullname {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.username {
+  width: 95%;
+}
+
+.email {
+  width: 95%;
+}
+.password {
+  width: 50%;
+}
+
+.input {
+  font-size: larger;
+  width: 90%;
+  margin: 2px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--color-text);
+}
+.inputf {
+  width: 95%;
+  font-size: larger;
+  margin: 2px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--color-text);
+}
+.btn {
+  margin: 9px;
+  margin-right: 80px;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-radius: 19px;
+  font-size: 24px;
+  width: 300px;
+  height: 55px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.12) perspective(1px);
+}
+.messages {
+  display: flex;
+  justify-content: center;
+  color: var(--color-attention);
+}
+
+.error {
+  display: block;
+  background-color: var(--color-attention);
+  color: var(--color-white);
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.success {
+  display: block;
+  background-color: var(--color-primary);
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+.icon {
+  color: var(--color-text);
+  padding: 3px;
+  font-size: 25px;
+  margin-right: 5px;
+}
